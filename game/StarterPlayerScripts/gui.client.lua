@@ -10,7 +10,7 @@ local player = Players.LocalPlayer
 local playerGui = player:WaitForChild("PlayerGui")
 
 -- Configuration
-local GAMEPASS_ID = 1530638388
+local GAMEPASS_ID = 1
 local BASE_FOLLOWERS_PER_MINUTE = 10
 local MULTIPLIER_FOLLOWERS = 20
 
@@ -464,5 +464,6 @@ game.Players.PlayerRemoving:Connect(function(plr)
 		saveData()
 	end
 end)
+
 
 print("Earn Followers Game loaded successfully!")
