@@ -1,0 +1,28 @@
+{
+  "name": "MyGame",
+  "tree": {
+    "$className": "DataModel",
+
+    "ServerScriptService": {
+      "$className": "ServerScriptService",
+      "$path": "game/ServerScriptService"
+    },
+
+    "Workspace": {
+      "$className": "Workspace",
+      
+      "Map": {
+        "$path": "game/Map.rbxm"
+      }
+    },
+
+    "StarterPlayer": {
+      "$className": "StarterPlayer",
+
+      "StarterPlayerScripts": {
+        "$className": "StarterPlayerScripts",
+        "$path": "game/StarterPlayerScripts"
+      }
+    }
+  }
+}
